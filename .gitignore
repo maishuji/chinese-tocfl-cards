@@ -1,2 +1,16 @@
-venv
+venv/
+.venv/
+
+# Data files (generated/large CSVs)
+*.csv
 data/**/*.csv
+
+__pycache__/
+*.pyc
+*.db
+
+# Backup and temp files
+*.bak
+*.bak.*
+*.tmp
+*_copy.csv
